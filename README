@@ -1,0 +1,14 @@
+sabnzbd-notifo.py
+=================
+
+Introduction
+------------
+sabnzbd-notifo.py is a sabnzbd post-processing script that allows you to send download notifications from Sabnzbd to the Notifo service, which can forward notifications to iOS devices.
+
+Usage
+-----
+
+**Linux / OSX**
+1. Set sabnzbd "Post-Processing Scripts Folder" (located in Sabnzbd Settings > General) to the folder containing this script
+2. Set the default user script (in Settings > Switches) to _sabnzbd-notifo.py_
+3. In sabnzbd-notifo.py, enter in your notifo _username_ and _api secret_
